@@ -10,5 +10,22 @@ package parkinglot.vo;
  * @author samdarshi
  */
 public class CarVo {
-    
+    public String carNo;
+    public String colour;
+
+    public void setCarNo(String carNo) {
+        this.carNo = carNo;
+    }
+
+    public void setColour(String colour) {
+        this.colour = colour;
+    }
+
+    public String getCarNo() {
+        return carNo;
+    }
+
+    public String getColour() {
+        return colour;
+    }
 }
